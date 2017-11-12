@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.mi.usb.sh \
     init.recovery.qcom.rc \
+    init.safailnet.rc \
     init.target.rc \
     init.xiaomi.rc \
     ueventd.qcom.rc
