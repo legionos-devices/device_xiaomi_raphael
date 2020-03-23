@@ -213,7 +213,6 @@ public class PopupCameraService extends Service implements Handler.Callback {
         if (audioManager.getRingerMode() != AudioManager.RINGER_MODE_NORMAL) {
             return;
         }
-
         int soundEffect = Integer.parseInt(mPopupCameraPreferences.getSoundEffect());
         if (soundEffect != -1) {
             if (state.equals(Constants.CLOSE_CAMERA_STATE)) {
