@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_raphael.mk
+    $(LOCAL_DIR)/legion_raphael.mk
+
+COMMON_LUNCH_CHOICES := \
+    legion_raphael-user \
+    legion_raphael-userdebug \
+    legion_raphael-eng
