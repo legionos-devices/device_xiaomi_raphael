@@ -471,5 +471,14 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    
+    <!-- SystemInfo Sys Nodes -->
+    <bool name="config_deviceSupportSysInfo">true</bool>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>  
 </resources>
 
