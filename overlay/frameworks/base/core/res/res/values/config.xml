@@ -678,5 +678,10 @@
     <!-- Indicates that connected MAC randomization is supported on this device -->
     <bool translatable="false" name="config_wifi_connected_mac_randomization_supported">true</bool>
 
+    <!-- If this is true, the screen will fade off. -->
+    <bool name="config_animateScreenLights">true</bool>
+	
+    <!-- Enable pocket mode -->
+    <bool name="config_proxiSensorWakupCheck">true</bool> 
 </resources>
 
