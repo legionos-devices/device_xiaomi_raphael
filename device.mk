@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.raphael
 
+EXTRA_FOD_ANIMATIONS := true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
@@ -106,10 +108,6 @@ PRODUCT_COPY_FILES += \
 # Livedisplay
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl.raphael
-
-# Livedisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
