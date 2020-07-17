@@ -18,9 +18,10 @@ PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := legion_raphael
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys"
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/ANXCamera/config.mk)
+
+#Official
+LEGION_BUILD_TYPE := OFFICIAL
