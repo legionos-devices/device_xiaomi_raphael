@@ -20,9 +20,6 @@ PRODUCT_NAME := legion_raphael
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Inherit from custom vendor
-$(call inherit-product, vendor/ANXCamera/config.mk)
-
 #Official
 LEGION_BUILD_TYPE := OFFICIAL
 
