@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common Legion stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
