@@ -74,7 +74,10 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
