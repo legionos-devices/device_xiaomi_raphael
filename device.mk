@@ -70,7 +70,11 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
-    libvulkan
+    libvulkan \
+    libgenlock \
+    libtinyxml \
+    libhwbinder \
+    libhwbinder.vendor
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
