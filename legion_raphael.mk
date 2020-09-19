@@ -15,6 +15,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
+PRODUCT_MODEL := Mi 9T Pro
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := legion_raphael
 
