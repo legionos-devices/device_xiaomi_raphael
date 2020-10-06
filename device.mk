@@ -62,22 +62,15 @@ PRODUCT_PACKAGES += \
     Snap
 
 # Device-specific settings
-#PRODUCT_PACKAGES += \
-#    XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
-    libvulkan \
-    libgenlock \
-    libtinyxml \
-    libhwbinder \
-    libhwbinder.vendor \
-    libhwbinder.vendor \
-    libhidltransport \
-    libhidltransport.vendor
+    libvulkan
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
@@ -85,8 +78,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.raphael
-
-EXTRA_FOD_ANIMATIONS := true
 
 # FM
 PRODUCT_PACKAGES += \
@@ -104,16 +95,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
 # IFAA manager
-#PRODUCT_PACKAGES += \
-#    org.ifaa.android.manager
+PRODUCT_PACKAGES += \
+    org.ifaa.android.manager
 
-#PRODUCT_BOOT_JARS += \
-#    org.ifaa.android.manager
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
 
 # Init
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
-    init.qcom.rc
+    init.qcom.rc \
+    init.recovery.qcom.rc \
+    init.qcom.usb.sh
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init-qcril-data.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/init/init-qcril-data.rc
