@@ -18,6 +18,7 @@
 BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/raphael
+SELINUX_IGNORE_NEVERALLOWS=true
 
 # Architecture
 TARGET_ARCH := arm64

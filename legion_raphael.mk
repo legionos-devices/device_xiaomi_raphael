@@ -16,10 +16,10 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ssos_raphael
+PRODUCT_NAME := legion_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
@@ -30,12 +30,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# ShapeShiftOS stuff
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.ssos.cpu=SD855
-
-SSOS_BUILD_TYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# LegionOS
+LEGION_BUILD_TYPE := OFFICIAL
+LEGION_MAINTAINER :=AnonHacker47
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
-EXTRA_FOD_ANIMATIONS := true
+
+# GApps
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+USE_GAPPS := false
+
