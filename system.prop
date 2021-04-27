@@ -1,10 +1,6 @@
-# Blur
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.blurs_are_expensive=1 \
-    ro.surface_flinger.supports_background_blur=1
-
-# Camera
-persist.vendor.camera.privapp.list=com.android.camera
+# Camera 
+persist.vendor.camera.privapp.list=com.android.camera 
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap,com.GoogleCamera.BurSLR11
 
 # Display
 debug.sf.disable_backpressure=1
