@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nezuko_raphael.mk
+    $(LOCAL_DIR)/legion_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    nezuko_raphael-user \
-    nezuko_raphael-userdebug \
-    nezuko_raphael-eng
+    legion_raphael-user \
+    legion_raphael-userdebug \
+    legion_raphael-eng
