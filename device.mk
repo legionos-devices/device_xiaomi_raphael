@@ -347,8 +347,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Parts
-#PRODUCT_PACKAGES += \
-#    XiaomiParts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Perf
 PRODUCT_PACKAGES += \
