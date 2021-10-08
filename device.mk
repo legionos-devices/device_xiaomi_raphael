@@ -78,6 +78,20 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_raphael/com.android.nfc_extras.xml
 
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.bluetooth@1.0.vendor \
+    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.system.net.netd@1.1.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.radio.deprecated@1.0.vendor
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -209,7 +223,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_raphael
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_raphael \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # GPS
 PRODUCT_COPY_FILES += \
