@@ -55,7 +55,7 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        vendor/etc/init/init.batterysecret.rc)
+        vendor/etc/init/init.batterysecret.rc | vendor/etc/init/init.mi_thermald.rc)
             sed -i "/seclabel/d" "${2}"
             ;;
     esac
