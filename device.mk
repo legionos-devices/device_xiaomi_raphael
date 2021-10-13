@@ -81,7 +81,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \
     android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.biometrics.fingerprint@2.1.vendor \
+    android.hardware.biometrics.fingerprint@2.3.vendor \
     android.hardware.radio@1.5.vendor \
     android.hardware.gnss@1.1.vendor \
     android.hardware.bluetooth@1.0.vendor \
@@ -222,7 +222,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_raphael \
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_raphael \
     vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
 
 # GPS
