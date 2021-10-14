@@ -13,13 +13,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common VoltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 # Official-ify
-VOLTAGE_BUILD_TYPE := OFFICIAL
+LEGION_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_raphael
+PRODUCT_NAME := legion_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro

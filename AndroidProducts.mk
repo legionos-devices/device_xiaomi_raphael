@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_raphael.mk
+    $(LOCAL_DIR)/legion_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_raphael-userdebug \
-    voltage_raphael-user \
-    voltage_raphael-eng
+    legion_raphael-userdebug \
+    legion_raphael-user \
+    legion_raphael-eng
